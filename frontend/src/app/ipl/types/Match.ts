@@ -19,8 +19,8 @@ this.status = status;
 this.winnerTeamId= winnerTeamId;
     }
     displayInfo():void{
-        console.log(`Match ID: ${this.matchId}`);
-        console.log(`Match date: ${this.matchDate}`);
-        console.log(`Venue: ${this.venue}`);
-      }
+      console.log(`Match ID: ${this.matchId}`);
+      console.log(`Match date: ${this.matchDate}`);
+      console.log(`Venue: ${this.venue}`);
+    }
 }

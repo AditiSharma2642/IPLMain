@@ -17,7 +17,7 @@ export class Vote {
         this.teamId = teamId;
     }
     displayInfo():void{
-    console.log(`Vote ID: ${this.voteId}`);
-    console.log(`Email: ${this.email}`);
-    }
+        console.log(`Vote ID: ${this.voteId}`);
+        console.log(`Email: ${this.email}`);
+        }
 }

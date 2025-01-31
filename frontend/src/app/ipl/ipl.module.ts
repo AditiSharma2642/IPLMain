@@ -7,12 +7,16 @@ import { HttpClientModule } from "@angular/common/http";
 import { TeamCreateComponent } from "./components/teamcreate/teamcreate.component";
 import { CricketerCreateComponent } from "./components/cricketercreate/cricketercreate.component";
 import { MatchCreateComponent } from "./components/matchcreate/matchcreate.component";
+import { TicketBookingComponent } from "./components/ticketbooking/ticketbooking.component";
+import { VoteComponent } from "./components/vote/vote.component";
 
 @NgModule({
   declarations: [
     TeamCreateComponent,
     CricketerCreateComponent,
-    MatchCreateComponent
+    MatchCreateComponent,
+    TicketBookingComponent,
+    VoteComponent
   ],
   imports: [
     CommonModule,
